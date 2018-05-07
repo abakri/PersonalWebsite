@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 
+const port = process.env.PORT || 8080;
+
 app.use(express.static('public'))
 app.set('view engine', 'ejs')
 
@@ -28,4 +30,4 @@ app.get('/contact', (req, res) => {
 
 app.get('/')
 
-app.listen('8080', () => console.log('listening on port 8080'))
+app.listen(port, () => console.log('listening on port 8080'))
