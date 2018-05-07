@@ -1,0 +1,21 @@
+{
+  "name": "slansite",
+  "version": "1.0.0",
+  "description": "Aslan's Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "website",
+    "slan"
+  ],
+  "author": "Aslan Bakri",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "materialize-css": "^1.0.0-beta",
+    "nodemon": "^1.17.3"
+  }
+}

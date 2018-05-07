@@ -1,0 +1,79 @@
+.splash{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.splashtitle{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.splashbg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bigname{
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0.8em;
+}
+
+.splashbtngroup{
+    position: fixed;
+    right: 25px;
+    bottom: 0px;
+}
+
+.splashbtngroup .btn-floating{
+    opacity: 0.95;
+}
+
+.splashbtngroup ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.splashbtngroup ul li{
+    margin: 10px;
+}
+
+@media (max-width: 500px) {
+    .splashbg{
+        background-position: -70px 0px;
+    }
+    .splash{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr;
+    }
+    .splashtitle{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .splashtitle h1{
+        font-size: 4em
+    }
+    .splashtitle h4{
+        line-height: 0.5em;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 376px) and (min-height: 800px) {
+    .splashbg{
+        background-position: -120px 0px;
+    }
+}

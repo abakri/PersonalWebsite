@@ -1,0 +1,18 @@
+nav ul li a{
+    grid-row-start: 0;
+    grid-row-end: 4;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.splashnav ul li a{
+    color:black;
+}
+
+.brand-logo{
+    margin-right: 20px;
+}
+
+.sidenav, .modal{
+    opacity: 0.8;
+}
