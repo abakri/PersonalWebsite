@@ -1,5 +1,6 @@
-footer{
-   background-color: #111111;
+footer{ 
+    flex-shrink: 0;
+    background-color: #111111;
 }  
 
 footer a{

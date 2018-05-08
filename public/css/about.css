@@ -28,3 +28,19 @@ body{
     font-family: 'Enriqueta', serif;
     text-align: justify;
 }
+
+@media (max-width: 600px) {
+    #overlay1{
+        display: none;
+    }
+    #aboutcontent{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 450px) {
+    #aboutcontent{
+        font-size: 16px;
+        text-align: left;
+    }
+}
