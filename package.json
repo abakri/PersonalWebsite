@@ -15,7 +15,9 @@
   "dependencies": {
     "ejs": "^2.5.8",
     "express": "^4.16.3",
-    "materialize-css": "^1.0.0-beta",
-    "nodemon": "^1.17.3"
+    "materialize-css": "^1.0.0-beta"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
